@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="left">
+      <div id="header">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.
+        </p>
+      </div>
+    </div>
+    <div id="right">
+      <section>
+        <div id="try-it">
+          <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </div>
+        <article>
+          <form>
+            <input class="user-input" type="text" id="first-name" name="first-name" placeholder="First Name">
+            <p class="first-name msg error-msg"></p><br>
+            <input class="user-input" type="text" id="last-name" name="last-name" placeholder="Last Name">
+            <p class="last-name msg error-msg"></p><br>
+            <input class="user-input" type="text" id="email" name="email" placeholder="Email Adress">
+            <p class="email msg error-msg"></p><br>
+            <input class="user-input" type="password" id="password" name="password" placeholder="Password">
+            <p class="password msg error-msg"></p><br>
+            <input class="btn" type="submit" value="CLAIM YOUR FREE TRIAL">
+            <p id="terms"><small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
+            </p>
+          </form>
+        </article>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/form-control.js"></script>
+</body>
+
+</html>
